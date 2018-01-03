@@ -1,0 +1,35 @@
+
+body{
+	margin:0;
+	font-family: 'Segoe UI';
+	font-style: light;
+	font-weight: light;
+	src: local('Segoe UI'), url('../fonts/segoeui.woff') format('woff');
+}
+
+#career{
+    margin: 50px 0px;
+}
+
+#about-p{
+    padding:50px 0;
+}
+
+.owl-carousel .owl-nav .owl-prev{
+	background:#2e3192;
+	width:20px;
+	position:absolute;
+	bottom:350px;
+	color:#ffffff;
+	padding:5px 25px 5px 15px; 
+	right:50px;
+}
+.owl-carousel .owl-nav .owl-next{
+	background:#2e3192;
+	width:20px;
+	position:absolute;
+	bottom:350;
+	color:#ffffff;
+	padding:5px 25px 5px 15px; 
+	right:0px;
+}
